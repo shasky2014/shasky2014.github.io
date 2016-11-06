@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="github,git,hexo," />
 
 
 
@@ -84,12 +84,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="本地安装git1. 链接github个人账户123456789101112131415$ git config --global user.name &apos;shasky2014&apos;$ git config --global user.email &apos;249398363@qq.com&apos;$ git config --list$ ssh-keygen -t rsa -C &quot;249398363@qq.com&quot; /">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo+git+github配置个人博客">
+<meta property="og:url" content="http://yoursite.com/2016/11/06/hexo+git+github配置个人博客/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="本地安装git1. 链接github个人账户123456789101112131415$ git config --global user.name &apos;shasky2014&apos;$ git config --global user.email &apos;249398363@qq.com&apos;$ git config --list$ ssh-keygen -t rsa -C &quot;249398363@qq.com&quot; /">
+<meta property="og:updated_time" content="2016-11-06T04:54:26.649Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="hexo+git+github配置个人博客">
+<meta name="twitter:description" content="本地安装git1. 链接github个人账户123456789101112131415$ git config --global user.name &apos;shasky2014&apos;$ git config --global user.email &apos;249398363@qq.com&apos;$ git config --list$ ssh-keygen -t rsa -C &quot;249398363@qq.com&quot; /">
 
 
 
@@ -110,10 +114,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/11/06/hexo+git+github配置个人博客/"/>
 
 
-  <title> Hexo </title>
+  <title> hexo+git+github配置个人博客 | Hexo </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="">
@@ -134,9 +138,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -215,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -237,10 +239,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/11/06/hexo+git+github配置个人博客/" itemprop="url">
-                  hexo+git+github配置个人博客
-                </a>
+                hexo+git+github配置个人博客
               
             
           </h1>
@@ -280,9 +279,7 @@
       
 
       
-        
-          
-            <h3 id="本地安装git"><a href="#本地安装git" class="headerlink" title="本地安装git"></a>本地安装git</h3><h5 id="1-链接github个人账户"><a href="#1-链接github个人账户" class="headerlink" title="1. 链接github个人账户"></a>1. 链接<code>github</code>个人账户</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">'shasky2014'</span></div><div class="line"></div><div class="line">$ git config --global user.email <span class="string">'249398363@qq.com'</span></div><div class="line"></div><div class="line">$ git config --list</div><div class="line"></div><div class="line">$ ssh-keygen -t rsa -C <span class="string">"249398363@qq.com"</span> //邮箱同上</div><div class="line"></div><div class="line">$ cat /home/linx/.ssh/id_rsa.pub //复制里面的密钥</div><div class="line"><span class="comment"># 到github网页中登陆自己的账号，然后再account setting中，找到SSH KEY讲复制的密钥加入（需要再次输入github的密码）</span></div><div class="line"></div><div class="line"></div><div class="line">~$ ssh Git@github.com </div><div class="line">ssh: connect to host github.com port 22: Connection timed out</div><div class="line"><span class="comment"># 开始报了错,继续解决...</span></div></pre></td></tr></table></figure>
+        <h3 id="本地安装git"><a href="#本地安装git" class="headerlink" title="本地安装git"></a>本地安装git</h3><h5 id="1-链接github个人账户"><a href="#1-链接github个人账户" class="headerlink" title="1. 链接github个人账户"></a>1. 链接<code>github</code>个人账户</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">'shasky2014'</span></div><div class="line"></div><div class="line">$ git config --global user.email <span class="string">'249398363@qq.com'</span></div><div class="line"></div><div class="line">$ git config --list</div><div class="line"></div><div class="line">$ ssh-keygen -t rsa -C <span class="string">"249398363@qq.com"</span> //邮箱同上</div><div class="line"></div><div class="line">$ cat /home/linx/.ssh/id_rsa.pub //复制里面的密钥</div><div class="line"><span class="comment"># 到github网页中登陆自己的账号，然后再account setting中，找到SSH KEY讲复制的密钥加入（需要再次输入github的密码）</span></div><div class="line"></div><div class="line"></div><div class="line">~$ ssh Git@github.com </div><div class="line">ssh: connect to host github.com port 22: Connection timed out</div><div class="line"><span class="comment"># 开始报了错,继续解决...</span></div></pre></td></tr></table></figure>
 <h6 id="报错解决"><a href="#报错解决" class="headerlink" title="报错解决"></a>报错解决</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment"># 主要是国内墙了github,改用配置方式翻墙.</span></div><div class="line">~$ <span class="built_in">cd</span> ~/.ssh/</div><div class="line">~$ touch config</div><div class="line"></div><div class="line">~$ vim config</div><div class="line"><span class="comment"># 添加如下信息</span></div><div class="line">host github.com</div><div class="line">user 249398363@qq.com</div><div class="line">hostname ssh.github.com</div><div class="line">preferredAuthentications publickey</div><div class="line">identityFile ~/.ssh/id_rsa</div><div class="line">port 443</div><div class="line"></div><div class="line"><span class="comment"># 测试连接是否成功</span></div><div class="line">$ ssh -T git@github.com</div><div class="line">Hi shasky2014! You ve successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="comment"># 到此成功用 git 连上 github</span></div></pre></td></tr></table></figure>
 <h5 id="2-下载github工程-更新工程文件"><a href="#2-下载github工程-更新工程文件" class="headerlink" title="2. 下载github工程,更新工程文件"></a>2. 下载<code>github</code>工程,更新工程文件</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 下载项目 clone</span></div><div class="line">$ git <span class="built_in">clone</span> git@github.com:shasky2014/study_C-.git</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># 修改本地内容后,更新当前项目</span></div><div class="line"></div><div class="line">$ git add -A</div><div class="line">$ git commit -m <span class="string">'add testtxt'</span></div><div class="line">$ git push origin  master</div></pre></td></tr></table></figure>
 <h5 id="3-配置个人博客主页"><a href="#3-配置个人博客主页" class="headerlink" title="3. 配置个人博客主页"></a>3. 配置个人博客主页</h5><p>在github中建一个<code>shasky2014.github.io</code>的项目库(<code>repository</code>)</p>
@@ -298,138 +295,63 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></div><div class="line">deploy: </div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repo: git@github.com:MyGithub/MyGithub.github.io</div></pre></td></tr></table></figure>
 <p>最后,把本地的hexo同步到github项目库中.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g <span class="_">-d</span></div></pre></td></tr></table></figure></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/06/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
-            <time itemprop="dateCreated" datetime="2016-11-06T03:23:50+08:00" content="2016-11-06">
-              2016-11-06
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/github/" rel="tag">#github</a>
           
-            
+            <a href="/tags/git/" rel="tag">#git</a>
           
-
-          
-
-          
-          
-
+            <a href="/tags/hexo/" rel="tag">#hexo</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/11/06/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -437,6 +359,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -456,8 +382,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -500,6 +435,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#本地安装git"><span class="nav-number">1.</span> <span class="nav-text">本地安装git</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-链接github个人账户"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 链接github个人账户</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#报错解决"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">报错解决</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-下载github工程-更新工程文件"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 下载github工程,更新工程文件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-配置个人博客主页"><span class="nav-number">1.0.3.</span> <span class="nav-text">3. 配置个人博客主页</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-1-使用hexo工具建个性化博客"><span class="nav-number">1.0.4.</span> <span class="nav-text">3.1 使用hexo工具建个性化博客.</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -596,6 +542,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 
