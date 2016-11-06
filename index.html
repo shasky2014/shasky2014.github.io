@@ -77,25 +77,22 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0.2" />
 
 
 
 
 
 
-<meta name="description" content="不要输给今后的困难,加油啊! 
- --by 夜露死苦">
+<meta name="description" content="不要输给今后的困难,加油啊! by 夜露死苦">
 <meta property="og:type" content="website">
 <meta property="og:title" content="卡路西法">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="卡路西法">
-<meta property="og:description" content="不要输给今后的困难,加油啊! 
- --by 夜露死苦">
+<meta property="og:description" content="不要输给今后的困难,加油啊! by 夜露死苦">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="卡路西法">
-<meta name="twitter:description" content="不要输给今后的困难,加油啊! 
- --by 夜露死苦">
+<meta name="twitter:description" content="不要输给今后的困难,加油啊! by 夜露死苦">
 
 
 
@@ -107,8 +104,8 @@
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: '0',
-      author: '博主'
+      userId: '4211458',
+      author: 'Author'
     }
   };
 </script>
@@ -275,6 +272,13 @@
 
           
             
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/06/hexo+git+github配置个人博客/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/hexo+git+github配置个人博客/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -296,7 +300,7 @@
       
         
           
-            <h3 id="本地安装git"><a href="#本地安装git" class="headerlink" title="本地安装git"></a>本地安装git</h3><h5 id="1-链接github个人账户"><a href="#1-链接github个人账户" class="headerlink" title="1. 链接github个人账户"></a>1. 链接<code>github</code>个人账户</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">'shasky2014'</span></div><div class="line"></div><div class="line">$ git config --global user.email <span class="string">'249398363@qq.com'</span></div><div class="line"></div><div class="line">$ git config --list</div><div class="line"></div><div class="line">$ ssh-keygen -t rsa -C <span class="string">"249398363@qq.com"</span> //邮箱同上</div><div class="line"></div><div class="line">$ cat /home/linx/.ssh/id_rsa.pub //复制里面的密钥</div><div class="line"><span class="comment"># 到github网页中登陆自己的账号，然后再account setting中，找到SSH KEY讲复制的密钥加入（需要再次输入github的密码）</span></div><div class="line"></div><div class="line"></div><div class="line">~$ ssh Git@github.com </div><div class="line">ssh: connect to host github.com port 22: Connection timed out</div><div class="line"><span class="comment"># 开始报了错,继续解决...</span></div></pre></td></tr></table></figure>
+            <h3 id="本地安装git"><a href="#本地安装git" class="headerlink" title="本地安装git"></a>本地安装git</h3><h5 id="1-链接github个人账户"><a href="#1-链接github个人账户" class="headerlink" title="1. 链接github个人账户"></a>1. 链接<code>github</code><a href="https://shasky2014.github.io/" target="_blank" rel="external">个人账户</a></h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">$ git config --global user.name <span class="string">'shasky2014'</span></div><div class="line"></div><div class="line">$ git config --global user.email <span class="string">'249398363@qq.com'</span></div><div class="line"></div><div class="line">$ git config --list</div><div class="line"></div><div class="line">$ ssh-keygen -t rsa -C <span class="string">"249398363@qq.com"</span> //邮箱同上</div><div class="line"></div><div class="line">$ cat /home/linx/.ssh/id_rsa.pub //复制里面的密钥</div><div class="line"><span class="comment"># 到github网页中登陆自己的账号，然后再account setting中，找到SSH KEY讲复制的密钥加入（需要再次输入github的密码）</span></div><div class="line"></div><div class="line"></div><div class="line">~$ ssh Git@github.com </div><div class="line">ssh: connect to host github.com port 22: Connection timed out</div><div class="line"><span class="comment"># 开始报了错,继续解决...</span></div></pre></td></tr></table></figure>
 <h6 id="报错解决"><a href="#报错解决" class="headerlink" title="报错解决"></a>报错解决</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment"># 主要是国内墙了github,改用配置方式翻墙.</span></div><div class="line">~$ <span class="built_in">cd</span> ~/.ssh/</div><div class="line">~$ touch config</div><div class="line"></div><div class="line">~$ vim config</div><div class="line"><span class="comment"># 添加如下信息</span></div><div class="line">host github.com</div><div class="line">user 249398363@qq.com</div><div class="line">hostname ssh.github.com</div><div class="line">preferredAuthentications publickey</div><div class="line">identityFile ~/.ssh/id_rsa</div><div class="line">port 443</div><div class="line"></div><div class="line"><span class="comment"># 测试连接是否成功</span></div><div class="line">$ ssh -T git@github.com</div><div class="line">Hi shasky2014! You ve successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="comment"># 到此成功用 git 连上 github</span></div></pre></td></tr></table></figure>
 <h5 id="2-下载github工程-更新工程文件"><a href="#2-下载github工程-更新工程文件" class="headerlink" title="2. 下载github工程,更新工程文件"></a>2. 下载<code>github</code>工程,更新工程文件</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 下载项目 clone</span></div><div class="line">$ git <span class="built_in">clone</span> git@github.com:shasky2014/study_C-.git</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># 修改本地内容后,更新当前项目</span></div><div class="line"></div><div class="line">$ git add -A</div><div class="line">$ git commit -m <span class="string">'add testtxt'</span></div><div class="line">$ git push origin  master</div></pre></td></tr></table></figure>
 <h5 id="3-配置个人博客主页"><a href="#3-配置个人博客主页" class="headerlink" title="3. 配置个人博客主页"></a>3. 配置个人博客主页</h5><p>在github中建一个<code>shasky2014.github.io</code>的项目库(<code>repository</code>)</p>
@@ -382,6 +386,13 @@
           
 
           
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/06/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/hello-world/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -477,8 +488,7 @@
                src="/images/avatar.png"
                alt="卡路西法" />
           <p class="site-author-name" itemprop="name">卡路西法</p>
-          <p class="site-description motion-element" itemprop="description">不要输给今后的困难,加油啊! 
- --by 夜露死苦</p>
+          <p class="site-description motion-element" itemprop="description">不要输给今后的困难,加油啊! by 夜露死苦</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -628,9 +638,30 @@
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"shasky2014"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
 
 
 
